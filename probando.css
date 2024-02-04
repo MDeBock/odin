@@ -9,14 +9,14 @@
 }
 
 :root{
-    --primary-bg-color: rgb(221, 221, 221);
-    --secondary-bg-color: rgb(204, 204, 204);
+    --primary-bg-color: rgb(255, 255, 255);
+    --secondary-bg-color: rgb(255, 255, 255);
 }
 
 .header-container{
     width: 100%;
     position: fixed;
-    background: var(--primary-bg-color);
+    background: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
     z-index: 2;
 }
@@ -70,17 +70,23 @@
 
 .redes{
     margin-top: 10rem;
-    right: 0.5rem;
+    left: 0.5rem;
     color: black;    
-    font-size: 3rem;
+    font-size: 2rem;
     position: fixed;
     overflow: hidden;
     z-index: 2;
 }
 
+.home-content{
+    background-image: url(./img/portada\ 0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .presentacion{   
-    min-height: 100vh;
-    background-color: var(--primary-bg-color); 
+    min-height: 100vh;    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,7 +103,10 @@ section{
 }
 
 .nostros-content{
-    background-color: var(--secondary-bg-color);
+    background-image: url(./img/crear-una-constructora-guia-completa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
@@ -105,10 +114,15 @@ section{
     justify-content: center;
     text-align: center;
 }
+
+.info {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(0.4rem);
+}
 .titulo{
     font-size: 2rem;
     margin: 1.8rem;
-    text-align: center;
+    text-align: center;    
 }
 
 .nosotros-img img{
@@ -119,6 +133,7 @@ section{
 .nosotros-texto{
     margin: 1.8rem;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .servicios-content{
@@ -217,11 +232,18 @@ footer{
 
 
 .portada-content{
+    background-image: url(./img/imagen\ 1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
     width: 100%;
-    overflow: hidden;
-    background: var(--secondary-bg-color);
+    overflow: hidden;    
     padding: 3rem;
 }
+
+/* .info-proyectos{
+    background-color: rgba(255, 255, 255, 0.10);
+} */
 
 .portada-content ul{
     display: flex;
@@ -235,7 +257,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;  
-    background-color:var(--secondary-bg-color);  
+    
 }
 
 .portada-content img{
