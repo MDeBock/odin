@@ -217,6 +217,46 @@ section{
     color: black;
 }
 
+
+
+.header-box img{
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+    max-height: 200px;
+    height: 200px;
+    width: 100%;
+}
+
+article.novedades-content{
+    max-width: 350px;
+    background: rgb(206, 206, 206);
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 0 12px rgb(56, 54, 54);
+}
+
+article.novedades-content h3{
+    margin: 1rem;
+    text-align: center;
+}
+
+article.novedades-content p{
+    margin: 1rem;
+}
+
+.novedades-conteiner{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footer-box{
+    max-height: 200px;
+    height: 200px;
+}
+
+
 footer{
     display: flex;
     justify-content: center;
