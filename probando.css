@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap'); */
 
 
 *{
@@ -65,7 +65,8 @@
 }
 /*MENU CAMBIOS REALIZADO  POR CARO*/
 .nav-content ul li a{
-    color: #f8b208;
+    /* color: #f8b208; */
+    color: white;
     font-weight: bold;
     font-size: 1.1rem;
     font-family:'Poppins',sans-serif;
@@ -236,6 +237,31 @@ section{
     font-weight: 700;
 }
 
+.datos-construccion{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.datos-construccion-box{
+    text-align: center;
+}
+
+.datos-construccion-box .numero{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f8b208;
+    padding: 1rem;
+}
+
+.datos-construccion-box .titulo-tarjeta{    
+    font-weight: 900;
+    color: #f8b208;
+    padding: 1rem;
+}
+
 .servicios-content{
     background-color: var(--primary-bg-color);
     padding: 3rem 2rem;
@@ -341,6 +367,7 @@ article.novedades-content p{
 .footer-box{
     max-height: 200px;
     height: 200px;
+    text-align: center;
 }
 
 
