@@ -31,147 +31,6 @@ body{
     background-attachment: fixed;
 }
 
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-
-.nav{
-    
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    padding: 5px 15px;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);  
-    z-index: 2;
-}
-
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.header-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.logo img{
-    width: 4rem;
-    height: 4rem;
-}
-
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.nav-content ul{
-    list-style: none;
-}
-
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.nav-content ul li{
-    display: inline-block;
-
-    
-}
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.nav-content ul li a{
-    color: #f8b208;
-    font-weight: bold;
-    font-size: 1.1rem;
-    font-family:'Poppins',sans-serif;
-    transition: all 0.5s ease;
-    margin-left: 40px;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.nav-content ul li a:hover{
-    padding: 5px 10px;
-    background:#f8b208;
-    color: black;
-    border-radius: 15px;
-    
-}
-/*MENU CAMBIOS REALIZADO  POR CARO*/
-.redesSociales{
-    color: azure;
-}
-
-.redesSociales ul{
-    float: left;
-    font-size: 25px;
-    padding-left: 200px;
-    
-}
-
-.redesSociales ul li{
-    display: inline-block;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    color: azure;
-}
-
-.redesSociales ul li.bx{
-    color: azure;
-    margin-top: 20px;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .facebook{
-    border-radius: 50%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .bxl-facebook{
-    border-radius: 30%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .instagram{
-    border-radius: 50%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .bxl-instagram{
-    border-radius: 30%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .tiktok{
-    border-radius: 50%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .bxl-tiktok{
-    border-radius: 30%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .whatsapp{
-    border-radius: 50%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-
-.redesSociales ul li:hover .bxl-whatsapp{
-    border-radius: 30%;
-    border: 5px solid #f8b208;
-    box-shadow: 0 0 15px #f8b208;
-    transition: all 0.5s ease;
-}
-/* Estilos para los tabs */
-
 section.contacto{
     min-height: 100vh;
 }
@@ -179,8 +38,8 @@ section.contacto{
 .container{
     width: 100%;
     max-width: 397px; 
-    margin: auto;
-    margin-top: 100px;    
+    margin: auto;   
+    padding: 1rem 0;
 }
 
 .lbl-menu{
@@ -190,7 +49,7 @@ section.contacto{
 }
 .lbl-menu label{
     display: inline-block;
-    padding: 20px;
+    padding: 10px 20px;
     color: #f8b208;
     font-weight: bold;
     font-size: 1.1rem;
@@ -215,7 +74,7 @@ section.contacto{
     opacity: 0;
     visibility: hidden;
     transform: scale(0.90);
-    padding: 39px;
+    padding: 20px 40px;
     background: rgba(0, 0, 0, 0.6);
     padding-bottom: 40px;
 }
@@ -267,7 +126,7 @@ form {
 .tab1 h2{
     color: #f8b208;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
